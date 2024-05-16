@@ -1,7 +1,19 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
+project.ext.envConfigFiles = [
+ developmentrelease: ".env",
+ developmentdebug: ".env",
+
+ stagingrelease: ".env.staging",
+ stagingdebug: ".env.staging",
+
+ productiondebug: ".env.production",
+ productionrelease: ".env.production",
+
+]
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -93,6 +105,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -100,6 +113,46 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            minSdkVersion rootProject.ext.minSdkVersion
+            targetSdkVersion rootProject.ext.targetSdkVersion
+        }
+        staging {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationIdSuffix ".staging"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.someapp"
+        }
+        development {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationIdSuffix ".development"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.someapp"
+        }
+    }
+
+    // Access the versionName from defaultConfig
+    def appVersionName = null
+    def environment = ""
+
+    // Get the versionName from defaultConfig
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            if (output.getFilter(com.android.build.OutputFile.ABI) == null) {
+                appVersionName = variant.mergedFlavor.versionName
+            }
+        }
+    }
+
+    // Set the output file name
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFileName = "SomeApp ${appVersionName} ${variant.flavorName} .apk"
         }
     }
 }

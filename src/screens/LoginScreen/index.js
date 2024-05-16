@@ -25,12 +25,7 @@ import TextView from '../../components/TextView';
 import TouchableDebounce from '../../components/TouchableDebounce';
 import LoginForm from './LoginForm/LoginForm';
 import IconSVG from 'src/assets/icons/IconSVG';
-import {
-  deviceHeight,
-  deviceWidth,
-  isIOS,
-  statusBarHeight,
-} from 'src/utilities/layout';
+import {deviceHeight, deviceWidth, isIOS} from 'src/utilities/layout';
 import ForgotPhoneForm from './ForgotPassForm/ForgotPhoneForm';
 import ForgotOTPForm from './ForgotPassForm/ForgotOTPForm';
 import ForgotPassForm from './ForgotPassForm/ForgotPassForm';
@@ -54,6 +49,7 @@ import {changeLangAction} from 'src/store/app';
 import {STORAGE_KEY, setLocalData} from 'src/utilities/helper/storageHelper';
 import * as Keychain from 'react-native-keychain';
 import useApi from 'src/hooks/useApi';
+import Config from 'react-native-config';
 
 const LoginScreen = ({navigation}) => {
   const insets = useSafeAreaInsets();
@@ -76,6 +72,10 @@ const LoginScreen = ({navigation}) => {
   });
 
   const [form, setForm] = useState(FORM.LOGIN);
+
+  useEffect(() => {
+    alert(Config.API_URL);
+  }, []);
 
   const saveCache = async ({phone, pass, isRemember}) => {
     setLocalData({

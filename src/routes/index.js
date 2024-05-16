@@ -137,7 +137,7 @@ const AppConfigScreen = () => {
   };
 
   const renderNavigator = useCallback(() => {
-    if (true) {
+    if (accessToken) {
       return <AppNavigator />;
     }
     return <AuthNavigator />;
