@@ -52,7 +52,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'SomeApp' do
+abstract_target 'zenixCommonPods' do
   config = use_native_modules!
 
   use_react_native!(
@@ -69,6 +69,15 @@ target 'SomeApp' do
   target 'SomeAppTests' do
     inherit! :complete
     # Pods for testing
+  end
+
+  target 'SomeApp' do
+  end
+ 
+  target 'SomeApp Dev' do
+  end
+ 
+  target 'SomeApp Stag' do
   end
 
   post_install do |installer|

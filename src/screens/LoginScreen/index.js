@@ -50,6 +50,7 @@ import {STORAGE_KEY, setLocalData} from 'src/utilities/helper/storageHelper';
 import * as Keychain from 'react-native-keychain';
 import useApi from 'src/hooks/useApi';
 import Config from 'react-native-config';
+import ShakeHandle from '../../components/ShakeHandle';
 
 const LoginScreen = ({navigation}) => {
   const insets = useSafeAreaInsets();
@@ -279,6 +280,7 @@ const LoginScreen = ({navigation}) => {
           </KeyboardAvoidingView>
         </TouchableWithoutFeedback>
       </ImageBackground>
+      <ShakeHandle />
     </View>
   );
 };

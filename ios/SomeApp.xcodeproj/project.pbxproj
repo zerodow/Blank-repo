@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SomeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SomeAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-SomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SomeApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2FCF6E6412A2BBF588CD45F7 /* libPods-zenixCommonPods-SomeApp Stag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA3061F9EE022B8C29DA66A /* libPods-zenixCommonPods-SomeApp Stag.a */; };
+		4A1290DC68DE7D175BFC5710 /* libPods-zenixCommonPods-SomeApp Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945A46576E601B2303A3FCDF /* libPods-zenixCommonPods-SomeApp Dev.a */; };
 		6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-SomeApp-SomeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SomeApp-SomeAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC787696D813B2145ADB3F8C /* libPods-zenixCommonPods-SomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE1E67E785C57318932A425 /* libPods-zenixCommonPods-SomeApp.a */; };
+		CEDAC28D2BFAF3F400FBE26F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		CEDAC28E2BFAF3F400FBE26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		CEDAC2922BFAF3F400FBE26F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */; };
+		CEDAC2932BFAF3F400FBE26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CEDAC2942BFAF3F400FBE26F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		CEDAC2A02BFAF3F800FBE26F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		CEDAC2A12BFAF3F800FBE26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		CEDAC2A52BFAF3F800FBE26F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */; };
+		CEDAC2A62BFAF3F800FBE26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CEDAC2A72BFAF3F800FBE26F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		E2BC9C46286351E9DE6FE71E /* libPods-zenixCommonPods-SomeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB4FF91D4D2922B94B238F /* libPods-zenixCommonPods-SomeAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,21 +43,35 @@
 		00E356EE1AD99517003FC87E /* SomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SomeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeAppTests.m; sourceTree = "<group>"; };
+		0EFE72481781CB18C372CE98 /* Pods-zenixCommonPods-SomeApp Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp Dev.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SomeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SomeApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SomeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SomeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SomeApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SomeApp-SomeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SomeApp-SomeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3987F95AC878DF0AE308232C /* Pods-zenixCommonPods-SomeApp Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp Dev.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SomeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeApp.debug.xcconfig"; path = "Target Support Files/Pods-SomeApp/Pods-SomeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE1E67E785C57318932A425 /* libPods-zenixCommonPods-SomeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-SomeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-SomeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeApp.release.xcconfig"; path = "Target Support Files/Pods-SomeApp/Pods-SomeApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SomeApp-SomeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeApp-SomeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-SomeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SomeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SomeApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7DA3061F9EE022B8C29DA66A /* libPods-zenixCommonPods-SomeApp Stag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-SomeApp Stag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SomeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SomeApp-SomeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeApp-SomeAppTests.release.xcconfig"; path = "Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F01A029463DDAFCB297D706 /* Pods-zenixCommonPods-SomeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp.release.xcconfig"; sourceTree = "<group>"; };
+		8F0E803F5E7552EF86360E94 /* Pods-zenixCommonPods-SomeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		945A46576E601B2303A3FCDF /* libPods-zenixCommonPods-SomeApp Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-SomeApp Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9716F601FF4D1542CBA7E503 /* Pods-zenixCommonPods-SomeApp Stag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp Stag.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E1046A760A5FA11D1645AE /* Pods-zenixCommonPods-SomeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDAC29B2BFAF3F400FBE26F /* SomeApp Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SomeApp Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDAC29C2BFAF3F400FBE26F /* SomeApp Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SomeApp Dev.plist"; path = "/Users/user/Documents/Blank-repo/ios/SomeApp Dev.plist"; sourceTree = "<absolute>"; };
+		CEDAC2AE2BFAF3F800FBE26F /* SomeApp Stag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SomeApp Stag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDAC2AF2BFAF3F800FBE26F /* SomeApp Stag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SomeApp Stag.plist"; path = "/Users/user/Documents/Blank-repo/ios/SomeApp Stag.plist"; sourceTree = "<absolute>"; };
+		D6FB4FF91D4D2922B94B238F /* libPods-zenixCommonPods-SomeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-SomeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB168DB32A5688C13527841B /* Pods-zenixCommonPods-SomeApp Stag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeApp Stag.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2E5B00A8D24AADDD3C2D3C1 /* Pods-zenixCommonPods-SomeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-SomeAppTests.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-SomeApp-SomeAppTests.a in Frameworks */,
+				E2BC9C46286351E9DE6FE71E /* libPods-zenixCommonPods-SomeAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +87,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-SomeApp.a in Frameworks */,
+				AC787696D813B2145ADB3F8C /* libPods-zenixCommonPods-SomeApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDAC28F2BFAF3F400FBE26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1290DC68DE7D175BFC5710 /* libPods-zenixCommonPods-SomeApp Dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDAC2A22BFAF3F800FBE26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCF6E6412A2BBF588CD45F7 /* libPods-zenixCommonPods-SomeApp Stag.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-SomeApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SomeApp-SomeAppTests.a */,
+				4EE1E67E785C57318932A425 /* libPods-zenixCommonPods-SomeApp.a */,
+				945A46576E601B2303A3FCDF /* libPods-zenixCommonPods-SomeApp Dev.a */,
+				7DA3061F9EE022B8C29DA66A /* libPods-zenixCommonPods-SomeApp Stag.a */,
+				D6FB4FF91D4D2922B94B238F /* libPods-zenixCommonPods-SomeAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +169,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				CEDAC29C2BFAF3F400FBE26F /* SomeApp Dev.plist */,
+				CEDAC2AF2BFAF3F800FBE26F /* SomeApp Stag.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -136,6 +182,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* SomeApp.app */,
 				00E356EE1AD99517003FC87E /* SomeAppTests.xctest */,
+				CEDAC29B2BFAF3F400FBE26F /* SomeApp Dev.app */,
+				CEDAC2AE2BFAF3F800FBE26F /* SomeApp Stag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +195,14 @@
 				5709B34CF0A7D63546082F79 /* Pods-SomeApp.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-SomeApp-SomeAppTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-SomeApp-SomeAppTests.release.xcconfig */,
+				8F0E803F5E7552EF86360E94 /* Pods-zenixCommonPods-SomeApp.debug.xcconfig */,
+				8F01A029463DDAFCB297D706 /* Pods-zenixCommonPods-SomeApp.release.xcconfig */,
+				0EFE72481781CB18C372CE98 /* Pods-zenixCommonPods-SomeApp Dev.debug.xcconfig */,
+				3987F95AC878DF0AE308232C /* Pods-zenixCommonPods-SomeApp Dev.release.xcconfig */,
+				9716F601FF4D1542CBA7E503 /* Pods-zenixCommonPods-SomeApp Stag.debug.xcconfig */,
+				DB168DB32A5688C13527841B /* Pods-zenixCommonPods-SomeApp Stag.release.xcconfig */,
+				A9E1046A760A5FA11D1645AE /* Pods-zenixCommonPods-SomeAppTests.debug.xcconfig */,
+				F2E5B00A8D24AADDD3C2D3C1 /* Pods-zenixCommonPods-SomeAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -196,6 +252,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* SomeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CEDAC28A2BFAF3F400FBE26F /* SomeApp Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDAC2982BFAF3F400FBE26F /* Build configuration list for PBXNativeTarget "SomeApp Dev" */;
+			buildPhases = (
+				CEDAC28B2BFAF3F400FBE26F /* [CP] Check Pods Manifest.lock */,
+				CEDAC28C2BFAF3F400FBE26F /* Sources */,
+				CEDAC28F2BFAF3F400FBE26F /* Frameworks */,
+				CEDAC2912BFAF3F400FBE26F /* Resources */,
+				CEDAC2952BFAF3F400FBE26F /* Bundle React Native code and images */,
+				CEDAC2962BFAF3F400FBE26F /* [CP] Embed Pods Frameworks */,
+				CEDAC2972BFAF3F400FBE26F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SomeApp Dev";
+			productName = SomeApp;
+			productReference = CEDAC29B2BFAF3F400FBE26F /* SomeApp Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDAC29D2BFAF3F800FBE26F /* SomeApp Stag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDAC2AB2BFAF3F800FBE26F /* Build configuration list for PBXNativeTarget "SomeApp Stag" */;
+			buildPhases = (
+				CEDAC29E2BFAF3F800FBE26F /* [CP] Check Pods Manifest.lock */,
+				CEDAC29F2BFAF3F800FBE26F /* Sources */,
+				CEDAC2A22BFAF3F800FBE26F /* Frameworks */,
+				CEDAC2A42BFAF3F800FBE26F /* Resources */,
+				CEDAC2A82BFAF3F800FBE26F /* Bundle React Native code and images */,
+				CEDAC2A92BFAF3F800FBE26F /* [CP] Embed Pods Frameworks */,
+				CEDAC2AA2BFAF3F800FBE26F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SomeApp Stag";
+			productName = SomeApp;
+			productReference = CEDAC2AE2BFAF3F800FBE26F /* SomeApp Stag.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -228,6 +326,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* SomeApp */,
 				00E356ED1AD99517003FC87E /* SomeAppTests */,
+				CEDAC28A2BFAF3F400FBE26F /* SomeApp Dev */,
+				CEDAC29D2BFAF3F800FBE26F /* SomeApp Stag */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +347,26 @@
 				6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDAC2912BFAF3F400FBE26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAC2922BFAF3F400FBE26F /* PrivacyInfo.xcprivacy in Resources */,
+				CEDAC2932BFAF3F400FBE26F /* LaunchScreen.storyboard in Resources */,
+				CEDAC2942BFAF3F400FBE26F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDAC2A42BFAF3F800FBE26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAC2A52BFAF3F800FBE26F /* PrivacyInfo.xcprivacy in Resources */,
+				CEDAC2A62BFAF3F800FBE26F /* LaunchScreen.storyboard in Resources */,
+				CEDAC2A72BFAF3F800FBE26F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,15 +395,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -301,7 +421,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SomeApp-SomeAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-SomeAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,7 +443,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-SomeApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,15 +456,159 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC28B2BFAF3F400FBE26F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-SomeApp Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC2952BFAF3F400FBE26F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		CEDAC2962BFAF3F400FBE26F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC2972BFAF3F400FBE26F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Dev/Pods-zenixCommonPods-SomeApp Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC29E2BFAF3F800FBE26F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-SomeApp Stag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC2A82BFAF3F800FBE26F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		CEDAC2A92BFAF3F800FBE26F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDAC2AA2BFAF3F800FBE26F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp Stag/Pods-zenixCommonPods-SomeApp Stag-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -353,15 +617,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SomeApp/Pods-SomeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeApp/Pods-zenixCommonPods-SomeApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -370,15 +634,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SomeApp-SomeAppTests/Pods-SomeApp-SomeAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-SomeAppTests/Pods-zenixCommonPods-SomeAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -401,6 +665,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEDAC28C2BFAF3F400FBE26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAC28D2BFAF3F400FBE26F /* AppDelegate.mm in Sources */,
+				CEDAC28E2BFAF3F400FBE26F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDAC29F2BFAF3F800FBE26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAC2A02BFAF3F800FBE26F /* AppDelegate.mm in Sources */,
+				CEDAC2A12BFAF3F800FBE26F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -414,7 +696,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SomeApp-SomeAppTests.debug.xcconfig */;
+			baseConfigurationReference = A9E1046A760A5FA11D1645AE /* Pods-zenixCommonPods-SomeAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -441,7 +723,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SomeApp-SomeAppTests.release.xcconfig */;
+			baseConfigurationReference = F2E5B00A8D24AADDD3C2D3C1 /* Pods-zenixCommonPods-SomeAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -465,7 +747,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SomeApp.debug.xcconfig */;
+			baseConfigurationReference = 8F0E803F5E7552EF86360E94 /* Pods-zenixCommonPods-SomeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -492,7 +774,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SomeApp.release.xcconfig */;
+			baseConfigurationReference = 8F01A029463DDAFCB297D706 /* Pods-zenixCommonPods-SomeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -666,6 +948,110 @@
 			};
 			name = Release;
 		};
+		CEDAC2992BFAF3F400FBE26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFE72481781CB18C372CE98 /* Pods-zenixCommonPods-SomeApp Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "SomeApp Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CEDAC29A2BFAF3F400FBE26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3987F95AC878DF0AE308232C /* Pods-zenixCommonPods-SomeApp Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "SomeApp Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CEDAC2AC2BFAF3F800FBE26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9716F601FF4D1542CBA7E503 /* Pods-zenixCommonPods-SomeApp Stag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "SomeApp Stag.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CEDAC2AD2BFAF3F800FBE26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB168DB32A5688C13527841B /* Pods-zenixCommonPods-SomeApp Stag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "SomeApp Stag.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +1078,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDAC2982BFAF3F400FBE26F /* Build configuration list for PBXNativeTarget "SomeApp Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDAC2992BFAF3F400FBE26F /* Debug */,
+				CEDAC29A2BFAF3F400FBE26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDAC2AB2BFAF3F800FBE26F /* Build configuration list for PBXNativeTarget "SomeApp Stag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDAC2AC2BFAF3F800FBE26F /* Debug */,
+				CEDAC2AD2BFAF3F800FBE26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
