@@ -26,6 +26,7 @@ import DetailApart from 'src/screens/ManagerApart/DetailApart';
 import UpdateInfo from 'src/screens/UpdateInfo';
 import DetailHandList from 'src/screens/HandList/DetailHandList';
 import DetailBanner from 'src/screens/DetailBanner';
+import NetworkLog from '../screens/NetworkLog';
 
 const AuthConfigScreen = [
   {
@@ -47,6 +48,10 @@ const AuthConfigScreen = [
   {
     name: RouteName.QR_SCAN,
     component: QRScan,
+  },
+  {
+    name: RouteName.NETWORK_LOG,
+    component: NetworkLog,
   },
 ];
 
@@ -146,6 +151,10 @@ const AppConfigScreen = [
   {
     name: RouteName.DETAIL_BANNER,
     component: DetailBanner,
+  },
+  {
+    name: RouteName.NETWORK_LOG,
+    component: NetworkLog,
   },
 ];
 

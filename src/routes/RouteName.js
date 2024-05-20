@@ -25,4 +25,5 @@ export default {
   NEWS_DETAIL: 'NewsDetail',
   UPDATE_INFO: 'UpdateInfo',
   DETAIL_BANNER: 'DetailBanner',
+  NETWORK_LOG: 'NetworkLog',
 };
